@@ -1,0 +1,40 @@
+
+        body {
+            background-image: url('img/background1.png');
+            text-align: center;
+            font-family: "Montserrat", serif;
+        }
+        .container {
+            width: 1328px;
+            height: 920px;
+            background: rgba(217, 217, 217, 0.8);
+            margin: auto;
+        }
+        h1 {
+            font-family: "Passero One", sans-serif;
+            font-weight: 400;
+            font-size: 128px;
+            text-align: center;
+            color: #fff;
+            text-shadow: 28px 28px 28px 0 rgba(0, 0, 0, 0.5);
+            -webkit-text-stroke: 25px #1B1D1F;
+            
+        }
+        .fix-stroke {
+            paint-order: stroke fill;
+         }
+        .update {
+            border-bottom: 1px solid #00ff99;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        .gallery img {
+            width: 400px;
+            height: auto;
+            margin: 5px;
+        }
+        iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+        }
